@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/DiceDot"
+            android:background="@drawable/dice_dot" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/DiceDot"
+            android:background="@drawable/dice_dot" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/DiceDot"
+            android:background="@drawable/dice_dot" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/DiceDot"
+            android:background="@drawable/dice_dot" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/DiceDot"
+            android:background="@drawable/dice_dot" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/DiceDot"
+            android:background="@drawable/dice_dot" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/DiceDot"
+            android:background="@drawable/dice_dot" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/DiceDot"
+            android:background="@drawable/dice_dot" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/DiceDot"
+            android:background="@drawable/dice_dot" />
+    </TableRow>
+
+</TableLayout>
